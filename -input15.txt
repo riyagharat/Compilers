@@ -1,0 +1,11 @@
+void main(void)
+{
+   int x;
+   int y;
+   int r;
+   x = 7;
+   y = 5;
+
+   r = (((x+1))*((x/(x-y))));
+   output(r);
+}

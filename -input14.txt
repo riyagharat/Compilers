@@ -1,0 +1,12 @@
+void foo(int nums[], int index)
+{
+   output(nums[index]);
+}
+
+void main(void)
+{
+   int x[2];
+   x[0] = 1;
+   x[1] = 2;
+   foo(x,0);
+}

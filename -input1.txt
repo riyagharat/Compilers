@@ -1,0 +1,39 @@
+/**/          /*/* */   */
+/*/*/****This**********/*/    */
+/**************/
+/*************************
+i = 333;        ******************/       */
+
+/* // hello
+/*         */
+hi      */   int r = 9;
+
+iiii = 3@33;
+
+int g 4 cd (int u, int v)      {
+if(v == >= 0) return/*a comment*/ u;
+else ret_urn gcd(vxxxxxxvvvvv, u-u/v*v);
+       /* u-u/v*v == u mod v*/
+!   
+}
+
+//ignore this
+
+int x = 7 // ignore this
+
+12.3
+12E12
+1.2E-12
+1.2E12
+1.2E+12
+1E
+return void while       void main()
+
+while(int i < 10){
+	if(i == 2){
+		test = 5;
+	else{
+		hello = 10;
+	}
+	i++;
+}

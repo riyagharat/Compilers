@@ -1,0 +1,11 @@
+int foo(int num)
+{
+   return num + 5 * num;
+}
+
+void main(void)
+{
+   int x;
+   x = 5;
+   output(foo(x));
+}

@@ -1,0 +1,8 @@
+void main(void)
+{
+   while(c < 10)
+   {
+      d = e + 1;
+   }
+   float y = 0;
+}
