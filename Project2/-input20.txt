@@ -1,0 +1,15 @@
+ /* gd _t8 */
+ int main(int b)
+ {
+    int a;
+    int b[10];
+ 
+    while(1)
+    {
+       while(1)
+       {
+         a < b[8 + f(1)];
+       }
+    }
+ 
+ }

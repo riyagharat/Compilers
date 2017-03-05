@@ -1,0 +1,9 @@
+ /* gd _t12 */
+ int main(void)
+ {
+    int a;
+    if(a < 8) 
+    {
+        a;
+    }
+ }

@@ -1,0 +1,39 @@
+program = { $ }
+declaration-list = { $ }
+declaration-list' = { $ }
+C = { int, void, float, $ } 
+X = { int, void, float, $ }
+Y = { int, void, float, $, ID, (, NUM, ;, if, whlie, return, {, } }
+type-specifier = { ID }
+params = { ) }
+param-list' = { ) }
+param = { ,, ) }
+Z = { ,, ) }
+M = { ,, ) }
+compound-stmt = { int, void, float, $, ID, (, NUM, ;, if, while, return, {, } }
+local-declarations' = { ID, (, NUM, ;, if, while, return, {, } }
+statement-list' = { } }
+statement = { ID, (, NUM, ;, if, while, return, {, } }
+expression-stmt = { ID, (, NUM, ;, if, while, return, {, } }
+selection-stmt = { ID, (, NUM, ;, if, while, return, {, } }
+A = { ID, (, NUM, ;, if, while, return, {, } }
+D = { ID, (, NUM, ;, if, while, return, {, } }
+R = { ID, (, NUM, ;, if, while, return, {, } }
+T = { ID, (, NUM, ;, if, while, return, {, } }
+iteration-stmt = { ID, (, NUM, ;, if, while, return, {, } }
+return-stmt = { ID, (, NUM, ;, if, while, return, {, } }
+U = { ID, (, NUM, ;, if, while, return, {, }}
+expression = { ), ], ;, , }
+F = { ), ], ;, , }
+G = { ), ], ;, ,}
+P = { ), ], ;, ,, *, /, <=, <, >, >=, ==, !=, +, - }
+S = {  ), ], ;, ,, }
+relop= { (, ID, NUM }
+B = { <=, <, >, >=, ==, !=, ), ], ;, ,, }
+addop = { (, ID, NUM }
+term' = { +, -, ), ], ; ,, <=, <, >, >=, ==, !=}
+mulop = { (, ID, NUM }
+factor = { *, /, ), ], ;, ,, <=, <, >, >=, ==, !=, +, - }
+E = { *, /, ), ], ;, ,, <=, <, >, >=, ==, !=, +, - }
+args = { ) }
+args-list' = { ) }

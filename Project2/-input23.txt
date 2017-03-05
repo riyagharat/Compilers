@@ -1,0 +1,9 @@
+/* g_t21 */
+ int main(void)
+ {
+ if (this==10) {
+  that[this] = 10;
+ }
+ 
+ 
+ }

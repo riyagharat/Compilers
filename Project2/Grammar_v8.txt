@@ -1,0 +1,39 @@
+program -> declaration-list
+declaration-list -> type-specifier C  declaration-list'
+declaration-list' -> type-specifier C  declaration-list' | empty
+C -> ID X
+X -> Y | ( params ) compound-stmt
+Y -> ; | [ NUM ];
+type-specifier -> int | void | float
+params -> param param-list' | void ->not really needed, because param can go to void and param-list' can go to empty
+param-list' -> , param | empty
+param -> type-specifier Z
+Z -> ID M
+M -> empty | []
+compound-stmt -> { local-declarations' statement-list' }
+local-declarations' -> type-specifier ID Y local-declarations' | empty
+statement-list' -> statement statement-list' | empty
+statement -> expression-stmt | compound-stmt | selection-stmt | iteration-stmt | return-stmt
+expression-stmt -> expression ; | ;
+selection-stmt - > if A
+A -> ( D
+D -> expression R
+R -> ) T
+T -> statement | else statement
+iteration-stmt -> while ( expression ) statement
+return-stmt -> return U
+U -> expression-stmt
+expression -> ID F | ( expression ) term' B S | NUM term' B S
+F -> P G | ( args ) term' B S
+G -> = expression | term' B S
+P -> empty | [ expression ]
+S -> relop factor term' B | empty
+relop -> <= | < | > | >= | == | !=
+B -> addop factor term' B | empty
+addop -> + | -
+term' -> mulop factor term' | empty
+mulop -> * | /
+factor -> ( expression ) | ID E | NUM
+E -> P | ( args ) 
+args -> expression args-list' | empty
+args-list' -> , expression args-list' | empty

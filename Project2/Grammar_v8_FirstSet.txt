@@ -1,0 +1,38 @@
+program = { int, void, float }
+declaration-list = { int, void, float }
+declaration-list' = { int, void, float, empty }
+C = { ID } 
+X = { ;, [, ( }
+Y = { ;, [ }
+type-specifier = { int, void, float }
+param-list' = { ,, empty }
+param = { int, void, float }
+Z = { ID }
+M = { empty, [ }
+compound-stmt = { { }
+local-declarations' = { int, void, float, empty }
+statement-list' = { ID, (, NUM, ;, if, while, return, {, empty }
+statement = { ID, (, NUM, ;, if, while, return, { }
+expression-stmt = { ID, (, NUM }
+selection-stmt = { if }
+A = { ( }
+D = { ID, (, NUM }
+R = { ) }
+T = { ID, (, NUM, ;, if, while, return, {, else }
+iteration-stmt = { while }
+return-stmt = { return }
+U = { ID, (, NUM, ; }
+expression = { ID, (, NUM }
+F = { [, =, *, /, +, -, <=, <, >, >=, ==, !=, empty, ( }
+G = { =, *, /, +, -, <=, <, >, >=, ==, !=, empty }
+P = { empty, [ }
+S = { <=, <, >, >=, ==, !=, empty }
+relop= { <=, <, >, >=, ==, != }
+B = { +, -, empty }
+addop = { +, - }
+term' = { *, /, empty }
+mulop = { *, / }
+factor = { (, ID, NUM }
+E = { empty, [, ( }
+args = { ID, (, NUM, empty }
+args-list' = { ,, empty }
