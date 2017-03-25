@@ -1,0 +1,18 @@
+/*
+  symTest10.c - CSE 481 - Spring 2002
+  Error: Too many args in a function call.
+*/
+
+void print(int x)
+{
+   output(x);
+}
+
+void main(void)
+{
+   int x;
+   int y;
+   x=1;
+   y=2;
+   print(x,y);
+}

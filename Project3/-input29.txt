@@ -1,0 +1,13 @@
+/*
+  symTest2.c - CSE 481 - Spring 2002
+  Error: Empty arg lists work correctly.
+*/
+
+void print(void)
+{
+}
+
+void main(void)
+{
+   print();
+}

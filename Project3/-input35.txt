@@ -1,0 +1,12 @@
+/*
+  symTest8.c - CSE 481 - Spring 2002
+  Error: Function foo not declared.
+*/
+
+int x;
+
+void main(void)
+{
+   x = 1;
+   foo(x);
+}

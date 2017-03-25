@@ -1,0 +1,14 @@
+/*
+  symTest14.c - CSE 481 - Spring 2002
+  Error: INT functions must return an integer.
+*/
+
+int print(int x)
+{
+   return;
+}
+
+void main(void)
+{
+   print(1);
+}

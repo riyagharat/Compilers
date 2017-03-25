@@ -1,0 +1,15 @@
+/*
+  symTest3.c - CSE 481 - Spring 2002
+  Error: Same name declared more than once in same scope.
+*/
+
+
+void foo(int x)
+{
+   int x;
+}
+
+void main(void)
+{
+  
+}

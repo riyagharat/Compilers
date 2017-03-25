@@ -1,0 +1,10 @@
+/*
+  symTest7.c - CSE 481 - Spring 2002
+  Error: Last function declared is not main.
+*/
+
+void main(void)
+{ }
+
+void foo(void)
+{ }

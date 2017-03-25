@@ -1,0 +1,16 @@
+/*
+  symTest13.c - CSE 481 - Spring 2002
+  Error: Wrong type of args in a function call.
+*/
+
+void print(int x, int y)
+{
+   output(x);
+   output(y);
+}
+
+void main(void)
+{
+   int m[12];
+   print(m[0],m);
+}

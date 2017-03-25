@@ -1,0 +1,14 @@
+/*
+  symTest15.c - CSE 481 - Spring 2002
+  Error: Void functions may not return values.
+*/
+
+void print(void)
+{
+   return 6;
+}
+
+void main(void)
+{
+   print();
+}

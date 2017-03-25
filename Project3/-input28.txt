@@ -1,0 +1,21 @@
+/*
+  symTest1.c - CSE 481 - Spring 2002
+  Lots of scoping but no errors.
+*/
+
+int x;
+int y[10];
+
+void main(void)
+{
+   int x;
+   int y[11];
+   {
+      int x;
+	  int y[12];
+	  {
+	     int x;
+		 int y[13];
+	  }
+   }
+}

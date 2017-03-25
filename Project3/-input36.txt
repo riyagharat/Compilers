@@ -1,0 +1,12 @@
+/*
+  symTest9.c - CSE 481 - Spring 2002
+  Error: A global variable can't be declared of type void. This is a semantic
+  check. Local variables are syntactically forbidden to be declared
+  as type void. You may have changed the syntax to fix this.
+*/
+
+void  y;
+
+void main(void)
+{
+}

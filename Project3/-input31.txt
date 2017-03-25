@@ -1,0 +1,9 @@
+/*
+  symTest4.c - CSE 481 - Spring 2002
+  Error: Same variable declared in same scope.
+*/
+
+void main(void)
+{  int x;
+   int x;
+}

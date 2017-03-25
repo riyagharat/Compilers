@@ -1,0 +1,11 @@
+/*
+  symTest6.c - CSE 481 - Spring 2002
+  Error: Variable y used before it is declared.
+*/
+
+int x;
+
+void main(void)
+{
+   y=5;
+}

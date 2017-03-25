@@ -1,0 +1,12 @@
+/*
+  symTest5.c - CSE 481 - Spring 2002
+  Error: Same variable (but different type) declared in same scope.
+*/
+
+int x;
+int x[10];
+
+void main(void)
+{
+
+}
