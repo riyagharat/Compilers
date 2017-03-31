@@ -1,0 +1,9 @@
+/*
+  Error: Same name declared more than once in same scope.
+*/
+
+void main(void)
+{
+	int x;
+	int x;  
+}

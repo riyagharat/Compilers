@@ -1,0 +1,11 @@
+/*
+  Error: Operators and Operands don't match
+*/
+
+void main(void)
+{
+
+	int x;
+	x = (5 + 5) / 6.7;
+  
+}

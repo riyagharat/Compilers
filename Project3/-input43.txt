@@ -1,0 +1,9 @@
+/*
+  Error: Operators and Operands don't match
+*/
+
+void main(void)
+{
+	float y;
+	y = 6; 
+}

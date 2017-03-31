@@ -1,0 +1,15 @@
+/*
+  Array returns
+*/
+
+int print(int y){
+	int p;
+	return p;
+}
+
+void main(void)
+{
+int z[6];
+int x;
+x = print(z[2]);
+}

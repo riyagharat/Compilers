@@ -1,0 +1,11 @@
+/*
+  Error: Array Size mismatch
+*/
+
+void main(void)
+{
+
+	int x[10];
+	x[11] = 5;
+  
+}

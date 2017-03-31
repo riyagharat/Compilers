@@ -1,0 +1,15 @@
+/*
+  Checking array assignment/ addition
+*/
+
+void print(void){
+}
+
+void main(void)
+{
+print();
+int a[5];
+int x;
+int y;
+y = a + x;
+}

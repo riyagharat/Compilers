@@ -1,0 +1,16 @@
+/*
+  Checking function assignment/ addition
+*/
+
+int print(int y){
+	int p;
+	return p;
+}
+
+void main(void)
+{
+int z;
+int x;
+z = 5;
+x = print(z);
+}
