@@ -1,0 +1,10 @@
+int sub(int x, float y)
+{
+   return(x+x);
+}
+void main(void)
+{
+  int x;
+  int y;
+  y = sub(x);
+}
